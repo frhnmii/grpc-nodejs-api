@@ -1,0 +1,22 @@
+{
+  "name": "grpc-microservice-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./product-service/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-product": "nodemon ./product-service/server.js",
+    "start-order": "nodemon ./order-service/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "@grpc/proto-loader": "^0.6.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
